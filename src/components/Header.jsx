@@ -3,9 +3,7 @@ import React from "react";
 function Header() {
     return(
     <header>
-        <div>
-            <h1>Keeper</h1>
-        </div>
+        <h1>Keeper</h1>   
     </header>
     );
 }

@@ -3,10 +3,12 @@ import React from "react";
 
 function Footer() {
 
-    const date = new Date();
-    const currentTime = date.getFullYear();
+    const year = new Date().getFullYear();
 
-    return (<footer><p>Copyright © {currentTime}</p></footer>)
+    return (
+        <footer>
+            <p>Copyright © {year}</p>
+        </footer>)
 }
 
 
